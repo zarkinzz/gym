@@ -52,3 +52,13 @@ body{
     min-width: 20%;
     font-size: 40px;
 }
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    row-gap: 50px;
+}
+
+.numbers  a{
+    display: inline-block;
+}
