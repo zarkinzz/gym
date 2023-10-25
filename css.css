@@ -30,6 +30,8 @@ body{
     justify-content: center;
     align-items: stretch;
     margin: 0 50px;
+
+    
 }
 
 .month{
@@ -62,3 +64,33 @@ body{
 .numbers  a{
     display: inline-block;
 }
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 50px;
+}
+
+.flex-response{
+    /* flex-shrink: 5; */
+    flex-basis: 70%;
+    
+}
+
+.month{
+    width: 100%;
+}
+
+aside{
+    border: black 2px solid ;
+    width: fit-content;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
