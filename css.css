@@ -12,6 +12,18 @@ body{
     background-color: #ffffff;
     
 }
+.numbers a{
+    padding: 10px;
+}
+.numbers a:hover{
+   border-radius: 50%;
+   width: fit-content;
+   margin: auto;
+   
+   display: inline-block;
+   /* height: 10px; */
+   background: pink; 
+}
 
 .palki{
     /* padding: 0px 100px; */
