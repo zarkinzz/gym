@@ -10,8 +10,19 @@ body{
     min-height: 400px;
     margin: 0 130px;
     background-color: #ffffff;
-    
 }
+
+.delete{
+    cursor: pointer;
+    display: inline-block;
+}
+
+@media (max-width: 800px) {
+    .column{
+        flex-wrap: wrap;
+    }
+}
+
 .numbers a{
     padding: 10px;
 }
@@ -88,6 +99,15 @@ body{
     /* flex-shrink: 5; */
     flex-basis: 70%;
     
+}
+
+.blocks img{
+    max-width: 200px;
+    padding-top: 20px;
+}
+
+.month-grid div{ 
+    cursor: pointer;
 }
 
 .month{
